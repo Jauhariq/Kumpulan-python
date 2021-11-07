@@ -5,8 +5,8 @@ while True: #mengulang operasi kalo udah selesai
         print("Maaf operasi yang Anda masukan salah!") #kalo ngemasukin selain dari operasi yg diatas.
         break #buat berhentiin program atau ubah break menjadi continue buat ngulang program dari awal lagi jika operasi yang dimasukkan salah
         
-    x = int(input("Masukkan angka pertama : ")) #masukin angka 1
-    y = int(input("Masukkan angka pertama : ")) #masukin angka 2
+    x = int(input("Masukkan angka pertama : ")) #masukin angka ke-1
+    y = int(input("Masukkan angka kedua : ")) #masukin angka ke-2
     
     if operasi == "+": #jika ditambah
         print("Hasil dari", x, "+", y, "=", x+y)
