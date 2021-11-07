@@ -3,7 +3,7 @@ while True: #mengulang operasi kalo udah selesai
     operasi = input("Tentukan operasi yang ingin Anda lakukan,\nmisalnya +, -, *, / : ") 
     if operasi not in("+", "-", "*", "×", ":", "/"):
         print("Maaf operasi yang Anda masukan salah!") #kalo ngemasukin selain dari operasi yg diatas.
-        break #buat berhentiin atau ubah break menjadi continue buat ngulang program dari awal lagi jika operator yang dimasukkan salah
+        break #buat berhentiin program atau ubah break menjadi continue buat ngulang program dari awal lagi jika operasi yang dimasukkan salah
         
     x = int(input("Masukkan angka pertama : ")) #masukin angka 1
     y = int(input("Masukkan angka pertama : ")) #masukin angka 2
