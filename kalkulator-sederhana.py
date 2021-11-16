@@ -3,8 +3,8 @@ def start():
 		judul = "Kalkulator Sederhana".center(50) #bikin teks ditengah
 		print(judul) #cetak judul
 		print('='*50) #biar rapih dikit aja wkwkwk cetak '=' 50 kali
-		print("\nKeterangan :\n+ = Pertamabahan\n- = Pengurangan\n* atau × = Perkalian\n/ atau : = Pembagian\n")
-		operasi = input("Tentukan operasi yang ingin Anda lakukan,\nmisalnya +, -, *, / : ") 
+		print("\nKeterangan :\n+ = Pertamabahan\n- = Pengurangan\n* atau × = Perkalian\n/ atau : = Pembagian\n") #keterangan operasi yg bisa di pake
+		operasi = input("Tentukan operasi yang ingin Anda lakukan,\nmisalnya +, -, *, / : ") #masukin operasi
 		if operasi not in("+", "-", "*", "×", ":", "/"):
 			print("\nMaaf operasi yang Anda masukan salah!, silahkan coba lagi!\n") #kalo ngemasukin selain dari operasi yg diatas.
 			
