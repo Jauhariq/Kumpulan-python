@@ -1,8 +1,8 @@
 def start(): #pake fungsi buat dipanggil nantinya
 	while True: #mengulang program
-		judul = "Kalkulator Sederhana".center(50) #bikin teks ditengah
+		judul = "Kalkulator Sederhana".center(58) #bikin teks ditengah
 		print(judul) #cetak judul
-		print('='*50) #biar rapih dikit aja wkwkwk cetak '=' 50 kali
+		print('='*58) #biar rapih dikit aja wkwkwk cetak '=' 58 kali
 		print("\nKeterangan :\n+ = Pertamabahan\n- = Pengurangan\n* atau × = Perkalian\n/ atau : = Pembagian\n") #keterangan operasi yg bisa di pake
 		operasi = input("Tentukan operasi yang ingin Anda lakukan,\nmisalnya +, -, *, / : ") #masukin operasi
 		if operasi not in("+", "-", "*", "×", ":", "/"):
