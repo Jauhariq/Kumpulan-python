@@ -11,18 +11,18 @@ def start(): #pake fungsi buat dipanggil nantinya
 			break #buat berhentiin program atau ubah break menjadi continue atau juga bisa pakai start() buat skip code yg dibawah dan ngulang program dari awal lagi jika operasi yang dimasukkan salah
 		
 		try: #jika user input selain dari angka pasti eror tuh, nah pake try buat lanjut ke except
-				x = int(input("\nMasukkan angka pertama : ")) #masukin angka ke-
+				x = int(input("\nMasukkan angka pertama : ")) #masukin angka ke-1
 				y = int(input("Masukkan angka kedua : ")) #masukin angka ke-2
 		except: #akan dieksekusi jika try eror, kalo ga eror ya except bakalan di skip
-			    print("\nMaaf yang Anda masukkan bukan angka, silahkan coba lagi!\n")
+			    print("\nMaaf yang Anda masukkan bukan angka, silahkan coba lagi!\n") #cetak except
 			    break #fungsinya sama kek di line 11
 		if operasi == "+": #jika ditambah
-			print("Hasil dari", x, "+", y, "=", x+y)
+		    print("Hasil dari", x, "+", y, "=", x+y) #cetak hasil +
 		elif operasi == "-": #jika dikurang
-		    print("Hasil dari", x, "-", y, "=", x-y)
+		    print("Hasil dari", x, "-", y, "=", x-y) #cetak hasil -
 		elif operasi == "*" or operasi == "×": #jika dikali
-		    print("Hasil dari", x, "×", y, "=", x*y)
+		    print("Hasil dari", x, "×", y, "=", x*y) #cetak hasil ×
 		elif operasi == "/" or operasi == ":": #jika dibagi
-		    print("Hasil dari", x, ":", y, "=", x/y)
+		    print("Hasil dari", x, ":", y, "=", x/y) #cetak hasil /
 	
 start() #manggil isi fungsi start
