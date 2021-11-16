@@ -1,4 +1,4 @@
-def start():
+def start(): #pake fungsi buat dipanggil nantinya
 	while True: #mengulang program
 		judul = "Kalkulator Sederhana".center(50) #bikin teks ditengah
 		print(judul) #cetak judul
@@ -25,4 +25,4 @@ def start():
 		elif operasi == "/" or operasi == ":": #jika dibagi
 		    print("Hasil dari", x, ":", y, "=", x/y)
 	
-start()
+start() #manggil isi fungsi start
