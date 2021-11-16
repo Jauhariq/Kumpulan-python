@@ -10,10 +10,10 @@ def start():
 			
 			break #buat berhentiin program atau ubah break menjadi continue atau juga bisa pakai start() buat skip code yg dibawah dan ngulang program dari awal lagi jika operasi yang dimasukkan salah
 		
-		try:
+		try:#jika user input selain dari angka pasti eror tuh, nah pake try buat lanjut ke except
 				x = int(input("\nMasukkan angka pertama : ")) #masukin angka ke-
 				y = int(input("Masukkan angka kedua : ")) #masukin angka ke-2
-		except:
+		except:#akan dieksekusi jika try eror, kalo ga eror ya except bakalan di skip
 			    print("\nMaaf yang Anda masukkan bukan angka, silahkan coba lagi!\n")
 			    break #fungsinya sama kek di line 11
 		if operasi == "+": #jika ditambah
