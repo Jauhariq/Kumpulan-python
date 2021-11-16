@@ -15,7 +15,7 @@ def start():
 				y = int(input("Masukkan angka kedua : ")) #masukin angka ke-2
 		except:
 			    print("\nMaaf yang Anda masukkan bukan angka, silahkan coba lagi!\n")
-			    break #fungsinya sama kek di line 9
+			    break #fungsinya sama kek di line 11
 		if operasi == "+": #jika ditambah
 			print("Hasil dari", x, "+", y, "=", x+y)
 		elif operasi == "-": #jika dikurang
